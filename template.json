@@ -1,73 +1,125 @@
 {
   "Actor": {
-    "types": ["character", "npc"],
-    "templates": {
-      "base": {
-        "health": {
-          "value": 10,
-          "min": 0,
-          "max": 10
-        },
-        "power": {
-          "value": 5,
-          "min": 0,
-          "max": 5
-        },
-        "biography": ""
-      }
-    },
+    "types": ["character"],
     "character": {
-      "templates": ["base"],
-      "attributes": {
-        "level": {
-          "value": 1
-        }
-      },
-      "abilities": {
-        "str": {
-          "value": 10
-        },
-        "dex": {
-          "value": 10
-        },
-        "con": {
-          "value": 10
-        },
-        "int": {
-          "value": 10
-        },
-        "wis": {
-          "value": 10
-        },
-        "cha": {
-          "value": 10
-        }
+      "bases":{
+        "hp":0,
+        "str":0,
+        "skl":0,
+        "spd":0,
+        "lck":0,
+        "mag":0,
+        "def":0,
+        "res":0,
+        "mov":0
       }
-    },
-    "npc": {
-      "templates": ["base"],
-      "cr": 0
     }
   },
   "Item": {
-    "types": ["item", "feature", "spell"],
-    "templates": {
-      "base": {
-        "description": ""
+    "types": ["item", "class", "weapon", "race", "skill","effect"],
+    "item": {
+      "description": "",
+      "uses": 0,
+      "properties":{
+        "type":"",
+        "print":"",
+        "effects":[]
       }
     },
-    "item": {
-      "templates": ["base"],
-      "quantity": 1,
-      "weight": 0,
-      "formula": "d20 + @str.mod + ceil(@lvl / 2)"
+    "class":{
+      "growths":{
+        "hp":0,
+        "str":0,
+        "skl":0,
+        "spd":0,
+        "lck":0,
+        "mag":0,
+        "def":0,
+        "res":0,
+        "mov":0
+      },
+      "bases":{
+        "hp":0,
+        "str":0,
+        "skl":0,
+        "spd":0,
+        "lck":0,
+        "mag":0,
+        "def":0,
+        "res":0,
+        "mov":0
+      }
     },
-    "feature": {
-      "templates": ["base"]
+    "weapon":{
+      "type":"",
+      "rank":"",
+      "wt":0,
+      "uses":0,
+      "mt":0,
+      "hit":0,
+      "crit":0,
+      "rng":{
+        "min":0,
+        "max":0
+      },
+      "against":"",
+      "aoe":0,
+      "mods":{
+        "hp":0,
+        "str":0,
+        "skl":0,
+        "spd":0,
+        "lck":0,
+        "mag":0,
+        "def":0,
+        "res":0,
+        "mov":0
+      },
+      "skills":[]
     },
-    "spell": {
-      "templates": ["base"],
-      "spellLevel": 1
+    "race":{
+      "hp":0,
+      "str":0,
+      "skl":0,
+      "spd":0,
+      "lck":0,
+      "mag":0,
+      "def":0,
+      "res":0,
+      "mov":0
+    },
+    "skill":{
+      "reqs":{
+        "timing":"",
+        "weapon":{
+          "self":"",
+          "target":""
+        },
+        "who_triggered":"",
+        "phys_or_mag":{
+          "self":"",
+          "target":""
+        },
+        "kill":false,
+        "custom":"",
+        "turn":"",
+        "rng":""
+      },
+      "properties":{
+        "stats":[],
+        "radius":{
+          "value":0,
+          "allegiance":""
+        },
+        "exp":0,
+        "wexp":0,
+        "attack_multiplier":0,
+        "children":[]
+      }
+    },
+    "effect":{
+      "mods":[],
+      "counter":0
     }
   }
 }
