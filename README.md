@@ -1,5 +1,5 @@
 # Emblem20 System
-Hi!! Everything else below is the default Boilerplate description - I'll write up a proper one later. Very much a work in progress!!!
+Hi!! Everything else below is the default Boilerplate description - I'll write up a proper one later. Very much a work in progress!!! This is not functional at the moment!!!
 
 
 ![Foundry v10](https://img.shields.io/badge/foundry-v10-green)
