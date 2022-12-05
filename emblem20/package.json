@@ -1,7 +1,7 @@
 {
-  "name": "boilerplate",
+  "name": "emblem20",
   "version": "1.0.0",
-  "description": "CSS compiler for the Boilerplate system",
+  "description": "CSS compiler for the Emblem20 system",
   "scripts": {
     "build": "gulp build",
     "compile": "gulp css",
