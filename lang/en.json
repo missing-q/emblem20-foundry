@@ -1,22 +1,22 @@
 {
-  "BOILERPLATE.AbilityStr": "Strength",
-  "BOILERPLATE.AbilityCon": "Constitution",
-  "BOILERPLATE.AbilityDex": "Dexterity",
-  "BOILERPLATE.AbilityInt": "Intelligence",
-  "BOILERPLATE.AbilityWis": "Wisdom",
-  "BOILERPLATE.AbilityCha": "Charisma",
+  "EMBLEM20.AbilityStr": "Strength",
+  "EMBLEM20.AbilityCon": "Constitution",
+  "EMBLEM20.AbilityDex": "Dexterity",
+  "EMBLEM20.AbilityInt": "Intelligence",
+  "EMBLEM20.AbilityWis": "Wisdom",
+  "EMBLEM20.AbilityCha": "Charisma",
 
-  "BOILERPLATE.AbilityStrAbbr": "str",
-  "BOILERPLATE.AbilityConAbbr": "con",
-  "BOILERPLATE.AbilityDexAbbr": "dex",
-  "BOILERPLATE.AbilityIntAbbr": "int",
-  "BOILERPLATE.AbilityWisAbbr": "wis",
-  "BOILERPLATE.AbilityChaAbbr": "cha",
+  "EMBLEM20.AbilityStrAbbr": "str",
+  "EMBLEM20.AbilityConAbbr": "con",
+  "EMBLEM20.AbilityDexAbbr": "dex",
+  "EMBLEM20.AbilityIntAbbr": "int",
+  "EMBLEM20.AbilityWisAbbr": "wis",
+  "EMBLEM20.AbilityChaAbbr": "cha",
 
-  "BOILERPLATE.EffectCreate": "Create Effect",
-  "BOILERPLATE.EffectToggle": "Toggle Effect",
-  "BOILERPLATE.EffectEdit": "Edit Effect",
-  "BOILERPLATE.EffectDelete": "Delete Effect",
+  "EMBLEM20.EffectCreate": "Create Effect",
+  "EMBLEM20.EffectToggle": "Toggle Effect",
+  "EMBLEM20.EffectEdit": "Edit Effect",
+  "EMBLEM20.EffectDelete": "Delete Effect",
 
-  "BOILERPLATE.Add": "Add"
+  "EMBLEM20.Add": "Add"
 }
